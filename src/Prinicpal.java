@@ -7,14 +7,15 @@ public class Prinicpal {
          System.out.println(animal.comer());
         */
 
-        Perro canelo = new Perro();
+        Perro canelo = new Perro("Canelo", 3);
         System.out.println(canelo.ladrar());
         System.out.println(canelo.comer());
 
         System.out.println("**************");
 
-        Gato pulgas = new Gato();
+        Gato pulgas = new Gato("Bigotes", 2, "naranja");
         System.out.println(pulgas.comer());
+        System.out.println(pulgas.dormir());
     }
 
 }
