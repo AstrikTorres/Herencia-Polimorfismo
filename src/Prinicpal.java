@@ -2,8 +2,10 @@ public class Prinicpal {
 
     public static void main(String[] args) {
 
-        Animal animal = new Animal();
-        // System.out.println(animal.comer());
+        /*
+         Animal animal = new Animal();
+         System.out.println(animal.comer());
+        */
 
         Perro canelo = new Perro();
         System.out.println(canelo.ladrar());

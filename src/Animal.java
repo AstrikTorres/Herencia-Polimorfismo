@@ -1,13 +1,11 @@
-public class Animal {
+public abstract class Animal {
 
     String nombre;
     int edad;
 
-    public String comer() {
-        return "comiendo";
-    }
+    public abstract String comer();
 
     public String dormir() {
-        return "durmiendo";
+        return "Zzzzzzz";
     }
 }
